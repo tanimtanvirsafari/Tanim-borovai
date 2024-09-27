@@ -43,6 +43,7 @@ nav li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 20vh;
     gap: 20px;
 }
@@ -177,6 +178,7 @@ main section {
 
 #what-i-do-description {
     padding: 30px 150px;
+    
 }
 
 .skills-container {
@@ -415,6 +417,7 @@ h2.primary-line, h3 {
     }
     .btn-container {
       gap: 15px;
+      text-align: center;
     }
     .btn-primary{
         width: 100px;
