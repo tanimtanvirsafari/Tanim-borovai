@@ -3,26 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Click Me</title>
+    <link rel="stylesheet" href="styles/style.css">
     <style>
-         *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        .coming{
-            
-            font-size: 50px;
-            color: #6e0303;
-            margin-bottom: 50px
-        }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f3;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title, .Graphics-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    /* color: #333; */
+    color: #28023e;
+}
+
+h3{
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: #757575;;
+}
+
+.border {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #28023e;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(46, 226, 181, 0.1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    grid-auto-flow: dense;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.big {
+    grid-column: span 4;
+}
+
+.dual {
+    grid-column: span 2;
+}
+.body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #b3afaf81;
+    padding: 20px;
+}
+.container-portfolio{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-header {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 20px 0;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+}
+
+.main-header h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.about-section, .skills-section, .experience-section, .contact-section {
+    margin: 30px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+.about-section p, .experience-section p, .contact-section p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-section ul li {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.experience p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    margin-top: 30px;
+}
+
     </style>
 </head>
 <body>
-    <div class="coming">
-        <h1 class="soon">Coming Soon</h1>
-        <h1 class="soon">Work in Progress</h1>
+    <h1 class="main-title">Welcome To My Portfolio Site</h1>
+    <h3>Hello! I am Imran Suny. Welcome to my site and see my portfolio.</h3>
+    <div class="border">
+        <div class="container">
+            <div class="big"><img src="images/adrian-infernus-FTLOH8t6xzQ-unsplash.jpg" alt=""></div>
+            <div class="dual"><img src="images/simple2.jpg" alt=""></div>
+            <div class="dual"><img src="images/simple5.jpg" alt=""></div>
+            <div><img src="images/simple6.jpg" alt=""></div>
+            <div><img src="images/simple3.jpg" alt=""></div>
+            <div><img src="images/vertical2.jpg" alt=""></div>
+            <div><img src="images/vertical5.jpeg" alt=""></div>
+        </div>
     </div>
+    <div class="body">
+        <header class="main-header">
+            <div class="container-portfolio">
+                <h1 class="name-title">Imran Suny</h1>
+                <h3 class="Graphics-title">Graphics Designer and You Tuber </h3>
+            </div>
+            <section class="about-section">
+                <div class="container-portfolio">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Imran Suny, a professional You Tuber, Graphics Designer and Web Developer. I create efficient and scalable web applications and have expertise in front-end and back-end development. I have a deep interest in learning new technologies and improving my skills in problem-solving and design.</p>
+                </div>
+            </section>
+            <section class="skills-section">
+                <div class="container-portfolio">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML, CSS, </li>
+                        <li>Graphics</li>
+                        <li>Python</li>
+                        <li>Database Management (MySQL, MongoDB)</li>
+                        
+                    </ul>
+                </div>
+            </section>
+            <section class="experience-section">
+                <div class="container-portfolio">
+                    <h2>Experience</h2>
+                    <div class="experience">
+                        <h3>Software Developer - ABC Company</h3>
+                        <p><strong>Duration:</strong> Jan 2022 - Present</p>
+                        <p>Working on various web development projects, collaborating with cross-functional teams to deliver scalable and efficient software solutions.</p>
+                    </div>
+                    <div class="experience">
+                        <h3>Web Developer - XYZ Agency</h3>
+                        <p><strong>Duration:</strong> Jun 2019 - Dec 2021</p>
+                        <p>Designed and developed responsive websites for clients across various industries, with a focus on user experience and accessibility.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="contact-section">
+                <div class="container-portfolio">
+                    <h2>Contact</h2>
+                    <p>If you'd like to get in touch, feel free to reach out via email:</p>
+                    <p><strong>Email:</strong> imran.suny@example.com</p>
+                </div>
+            </section>
+        
+            <footer class="main-footer">
+                <div class="container-portfolio">
+                    <p>&copy; 2024 Habibur Rahaman Tanim(Web Developer,BSPI). All rights reserved.</p>
+                </div>
+            </footer>
+        
+    </div>
+    
+    
+   
 </body>
 </html>

@@ -494,6 +494,7 @@ h2.primary-line, h3 {
         height: auto;
     }
 
+
     /* Adjust font size and padding for smaller screens */
     .Name-plate {
         font-size: 1.5em;
@@ -542,7 +543,51 @@ h2.primary-line, h3 {
     background-position: left top, center, right bottom; /* Control position of each image */
     background-repeat: no-repeat, no-repeat, no-repeat; /* Prevent repetition */
       }
+      /* learning html */
+     
+        .main-title {
+            font-size: 1.8rem;
+        }
+    
+        h3 {
+            font-size: 1rem;
+        }
+    
+        .border {
+            max-width: 95%;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    
+        .container {
+           margin: 20px; 
+        }
+    
+        .big, .dual {
+            grid-column: span 1; /* Make all images full width */
+        }
+    
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+        .main-header h1 {
+            font-size: 2rem;
+        }
+    
+        .main-header h3 {
+            font-size: 1.2rem;
+        }
+    
+        h2 {
+            font-size: 1.6rem;
+        }
+    
+        .about-section, .skills-section, .experience-section, .contact-section {
+            padding: 10px;
+        }
     }
+    
 
     
 /* Medium Devices (Tablets) */
