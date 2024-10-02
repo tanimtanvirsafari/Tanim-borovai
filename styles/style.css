@@ -243,6 +243,7 @@ main section {
 }
 .social-Links{
     display: flex;
+    justify-content: center;
 }
 .social-Links a{
     margin-right: 25px;
@@ -398,7 +399,7 @@ h2.primary-line, h3 {
 
 
     /* Small Devices (Mobile) */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     nav {
         flex-direction: column;
         margin: 20px;
