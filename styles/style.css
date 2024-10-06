@@ -34,9 +34,7 @@ nav li {
     color: #ffff;
     font-size: 20px;
     font-weight: 700;
-    /* padding: 15px 35px;
-    */padding: 15px 30px;
-    
+    padding: 15px 30px;
 }
 .btn-container{
     display: flex;
@@ -93,7 +91,8 @@ a{
 }
 
 .banner .profile-picture {
-    width: 500px;
+    width: 400px;
+    height: 700px;
 
 }
 
@@ -240,6 +239,9 @@ main section {
 .hotline{
     text-align: center;
     margin-top: 50px;
+}
+.down-cv{
+ text-align: center;   
 }
 .social-Links{
     display: flex;
@@ -436,6 +438,9 @@ h2.primary-line, h3 {
         padding: 15px 20px;
         width: auto;
        
+    }
+    .down-cv{
+        text-align: center;
     }
     
 
