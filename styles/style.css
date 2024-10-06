@@ -488,6 +488,10 @@ h2.primary-line, h3 {
         flex-direction: column;
         text-align: left;
     }
+    .about-info-container p{
+        text-align: left;
+    }
+
     .about-info {
     margin: 5px 0;
     width: 100%;
