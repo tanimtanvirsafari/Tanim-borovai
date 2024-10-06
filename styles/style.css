@@ -326,7 +326,7 @@ body.download-cv {
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #0a74da;
     line-height: 1.6;
 }
 
@@ -352,7 +352,7 @@ h2.primary-line, h3 {
 /* Paragraph Styling */
 .cv-paragraph {
     font-size: 16px;
-    color: #555;
+    color: #0a74da;
     margin-bottom: 15px;
 }
 .btn-primary:hover{
@@ -402,6 +402,16 @@ h2.primary-line, h3 {
 
     /* Small Devices (Mobile) */
 @media (max-width: 600px) {
+    .body-tag{
+        padding: 0px 20px;
+
+    }
+    .header {
+        background: rgb(255, 248, 243);
+        background-image: url('../images/header_bg.png');
+        /* background-repeat: no-repeat;
+        background-position: bottom right; */
+    }
     nav {
         flex-direction: column;
         margin: 20px;
@@ -453,6 +463,10 @@ h2.primary-line, h3 {
     .banner .profile-picture {
         width: 100%;
         max-width: 300px; /* Adjust based on your design */
+        height: 520px;
+    }
+    .profile-picture{
+        margin-top: 50px;
     }
 
     .banner-title {
